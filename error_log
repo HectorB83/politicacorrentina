@@ -1,0 +1,1 @@
+[16-Jul-2015 22:12:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'ZipArchive' not found in /home/politica/public_html/nueva/sites/all/modules/migrate/migrate_example_baseball/migrate_example_baseball.install on line 31

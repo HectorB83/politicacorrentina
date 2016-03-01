@@ -1,0 +1,369 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* Import Sass mixins, variables, Compass modules, etc. */
+@import "init";
+
+/* HTML element (SMACSS base) rules */
+@import "normalize";
+
+/* Layout rules */
+@import "layouts/responsive";
+
+/* Component (SMACSS module) rules */
+@import "components/misc";
+// Optionally, add your own components here.
+@import "print";
+
+/* SMACSS theme rules */
+/* @import "theme-A"; */
+/* @import "theme-B"; */
+
+
+#header {
+    
+ 
+    background-color: #2C312C;
+    width: 100%;
+    
+  }
+  
+ /* Wrapping link for logo. */
+.header__logo {
+  float: left; /* LTR */
+  margin: 0;
+  padding: 50px;
+  
+}
+
+/* Logo image. */
+.header__logo-image {
+  
+
+ 
+  
+}
+ /* Menu principal */
+ 
+ 
+ .menu-block-wrapper.menu-block-2 {
+          bottom: 140px;        
+          left:  0;
+          float: left;
+         
+        .menu a {
+            font-size: .85em;
+            font-weight: bold; 
+             color: gainsboro;
+             text-decoration: none;
+             margin: 0px 3px 3px 3px;
+        } 
+        
+   .menu a.active {
+      font-weight: bold; 
+      color: red;
+      text-decoration: none;
+      cursor: auto;
+    
+}   
+}
+
+/* bloque de fecha */
+
+
+
+.block.block-block {
+    position: relative;
+    width: 25%;
+    color: #fff;
+    top:-120px;
+    left:  38%;
+     
+}
+
+
+
+/* Menu Noticias principales*/
+
+  .block.block-menu-block {
+          position: relative;
+          width: 16%;
+          bottom: 168px;       
+          left:  40%;
+          padding: 0px;
+          border: 0px;
+          margin: 0px;
+            background: #000;
+        
+          
+          .menu a {
+            font-size: 0.9em;
+            color: #c00;
+            text-decoration: none;
+          
+        } 
+    
+  }
+ 
+    .block.block-views {
+  position: relative; 
+
+    width: 450px;
+    height: 23px;
+   top: - 120px;
+   left: 56%;
+   background:#fff;
+  
+     
+   
+   
+    
+    
+}
+  
+/* bloque de busqueda */
+
+
+
+.block.block-search {
+    position: relative;
+    width: 25%;
+    top:-22px;
+    left:  63%;
+     
+}
+
+/* Estilos del panel portada*/
+
+/* Estilos al panel superior izquierdo */
+
+.panels-flexible-region-clone_of_cuatro_columnas3-izquierdo{
+    position: relative;
+   
+    padding-top: 9px;
+    border-top: 6px solid #ccc;
+    
+ 
+  
+    background: #f2f2f2;
+    
+.pane-title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+}    
+
+ .views-field.views-field-title {
+    text-decoration-color: red;
+ 
+   // background-color: red;
+   
+}  a:-webkit-any-link {
+    color: red;
+    text-decoration:none;
+    cursor: auto;
+}
+   h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+    
+   
+} 
+  
+ 
+     
+
+
+
+
+
+
+/* Estilos al panel superior central (arriba) */
+
+.panels-flexible-region-clone_of_cuatro_columnas3-arriba 
+{
+    background-color: #f2f2f2;
+  
+    border-top: 6px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+ 
+  .pane-title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+}    
+
+  .views-field.views-field-title {
+    text-decoration-color: red;
+ 
+   // background-color: red;
+   
+}  a:-webkit-any-link {
+    color: red;
+    text-decoration:none;
+    cursor: auto;
+}
+   h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+    
+    
+  
+}  
+
+
+
+/*
+.view-lesgilatura  {
+    border-top: 10px solid black;
+} */
+  
+  
+  
+
+/* Estilos al panel superior derecho */
+
+.panels-flexible-region.panels-flexible-region-clone_of_cuatro_columnas3-derecha_
+  {
+    background-color: #f2f2f2;
+ 
+    border-top: 6px solid #ccc;
+    
+  .pane-title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+  }     
+
+  .views-field.views-field-title {
+    text-decoration-color: red;
+ 
+   // background-color: red;
+   
+  }  a:-webkit-any-link {
+    color: red;
+    text-decoration:none;
+    cursor: auto;
+  }
+    h4 {
+     font-size: 1em;
+     line-height: 1.5em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+    
+  }
+    
+    
+  
+}  
+
+
+/* Estilos al panel central izquierdo, Noticias Nacionales*/
+
+.panels-flexible-row-clone_of_cuatro_columnas3-1-inside {
+    padding-right: 1px;
+    background-color: mintcream;
+    border-top: 6px solid #ccc;
+   
+  
+  .pane-title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+}    
+
+   .views-field.views-field-title {
+     text-decoration-color: red;
+ 
+   // background-color: red;
+   
+}  
+    a:-webkit-any-link {
+      color: red;
+      text-decoration:none;
+      cursor: auto;
+}
+   h3 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+    
+    
+}
+
+/** Agrega color al body */
+  
+#page {
+    padding-right: 5px;
+    background-color: whitesmoke;
+    
+}
+
+
+// Noticias Nacionales //
+/*
+.view-display-id-panel_pane_1 {
+   background-color: #f8fff0;  
+  font-family: cursive; 
+  
+  
+}  */ 
+
+
+/*
+.item-list{
+   text-decoration-color:black;
+   font-family: cursive; 
+} */
+
+ /*   Estilos al campo titulo del panel superior izquierdo */
+ /* 
+.views-field-title{
+   color: #282927;
+ 
+ 
+  font-style: italic;
+
+
+.a {  
+  color: blue;
+
+  &:hover,
+  &:focus {
+    color: green;
+  }
+}
+}
+*/
+
+
+ // nose
+ /*
+ 
+ .view-content{
+    
+    
+}*/
+
+
